@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import { useReducer } from "react";
 import { createContext } from "react";
 import reducer from "./reducer";
-const API_ENDPOINT = `http://hn.algolia.com/api/v1/search?`;
+const API_ENDPOINT = `https://hn.algolia.com/api/v1/search?`;
 const initialState = {
   query: "react",
   page: 0,
