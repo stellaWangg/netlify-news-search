@@ -15,7 +15,7 @@ const News = () => {
             <h4 className="title">{title}</h4>
             <p className="info">published by {author}</p>
             <div>
-              <a href={url} className="read-more">
+              <a href={url} target="_blank" className="read-more">
                 read more
               </a>
               <button className="rmv-btn" onClick={() => removeFunc(id)}>
